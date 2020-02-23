@@ -11,7 +11,7 @@ import sys
 import hashlib
 import csv
 
-csvfilename = sys.argv[1]
+csvfilename = sys.argv[0]
 print csvfilename
 
 with open(csvfilename, 'r') as csvfile:
